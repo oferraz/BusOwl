@@ -16,6 +16,8 @@
 		616AC4B824285787007CA241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616AC4B624285787007CA241 /* LaunchScreen.storyboard */; };
 		616AC4C324285788007CA241 /* BusOwlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AC4C224285788007CA241 /* BusOwlTests.swift */; };
 		616AC4CE24285788007CA241 /* BusOwlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AC4CD24285788007CA241 /* BusOwlUITests.swift */; };
+		61985C9F242FC44A00BADCE0 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61985C9E242FC44A00BADCE0 /* BLEManager.swift */; };
+		61985CA12430272700BADCE0 /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61985CA02430272700BADCE0 /* GaugeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		616AC4C924285788007CA241 /* BusOwlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusOwlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		616AC4CD24285788007CA241 /* BusOwlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusOwlUITests.swift; sourceTree = "<group>"; };
 		616AC4CF24285788007CA241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61985C9E242FC44A00BADCE0 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		61985CA02430272700BADCE0 /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				616AC4AB2428577C007CA241 /* SceneDelegate.swift */,
 				616AC4AD2428577C007CA241 /* FirstViewController.swift */,
 				616AC4AF2428577C007CA241 /* SecondViewController.swift */,
+				61985C9E242FC44A00BADCE0 /* BLEManager.swift */,
+				61985CA02430272700BADCE0 /* GaugeView.swift */,
 				616AC4B12428577C007CA241 /* Main.storyboard */,
 				616AC4B424285787007CA241 /* Assets.xcassets */,
 				616AC4B624285787007CA241 /* LaunchScreen.storyboard */,
@@ -264,7 +270,9 @@
 			files = (
 				616AC4B02428577C007CA241 /* SecondViewController.swift in Sources */,
 				616AC4AE2428577C007CA241 /* FirstViewController.swift in Sources */,
+				61985C9F242FC44A00BADCE0 /* BLEManager.swift in Sources */,
 				616AC4AA2428577C007CA241 /* AppDelegate.swift in Sources */,
+				61985CA12430272700BADCE0 /* GaugeView.swift in Sources */,
 				616AC4AC2428577C007CA241 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
